@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="todo_container">
+            <div class="main_heading">
+                <span>Todo App</span>
+                <img src="imgs/icon.png" alt="icon">
+            </div>
+
+            <div class="input_container">
+                <input  id="input" type="text" placeholder="Enter the task">
+                <button onclick="get_data_from_input()"><i class="ri-add-line"></i></button>
+            </div>
+
+            <div class="tasks_container" id="tasks_container" onmouseenter="get_divs()">
+             
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+    
